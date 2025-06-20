@@ -1,3 +1,5 @@
+# Witnessing Auto-Healing and Scaling
+
 ### Apply and Verify
 ![alt text](image.png)
 
