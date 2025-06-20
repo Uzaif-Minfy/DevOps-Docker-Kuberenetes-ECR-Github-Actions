@@ -1,8 +1,9 @@
 # Deploying Pod
 
+### Apply the Manifest to the Cluster
 ![alt text](image.png)
 
-
+### Inspect and Debug the Pod
 ![alt text](image-1.png)
 
 
