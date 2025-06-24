@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  redis-server:
+    image: redis
+    container_name: redis-server
+    volumes:
+      - redis-data-uzaif:/data
+
+  web-app:
+    build: .
+    container_name: web-app-uzaif
+    ports:
+      - "4000:8081"
+    depends_on:
+      - redis-server
+
+volumes:
+  redis-data-uzaif:
